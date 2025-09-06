@@ -64,3 +64,6 @@ def logits_from_w_multi(
             else:
                 raise ValueError("activation must be relu or identity")
     return alpha * H  # logits
+
+
+

@@ -9,6 +9,12 @@ Run visualize.py for all 32 taskids to produce pretty learning curves and latex 
 
 The random seed was set to 43 in lastlayerbayesian.py.
 
+### additional experiment
++ estimate_softmax_DNN.py
+estimate LLC for softmax DNN with various alpha(nonlienar parameter)
++ llc_rlct_estimator_for_softmax_networks_via_power_posteriors_sgld.py
+estimate_softmax_DNN using SGLD or NUTS HMC
+
 
 ## Committing Jupyter notebooks
 
